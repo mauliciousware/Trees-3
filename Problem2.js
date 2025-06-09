@@ -4,7 +4,7 @@
 // Any problem you faced while coding this : I was thinking this was a invert binary tree pattern, but turns out this was 2 header patterns from isValid tree or subTree of a tree pattern
 var isSymmetric = function(root) {
     // Time Complexity : O(N)
-// Space Complexity : O(1)
+// Space Complexity : O(h)
     if(!root)return true
     function checkMirror(p,q){
         if(!p && !q) return true
